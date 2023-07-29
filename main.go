@@ -33,7 +33,7 @@ import (
 /**
 * golang-sample源代码，版权归锦翰科技（深圳）有限公司所有。
 * <p>
-* 文件名称 : docker.ui.go
+* 文件名称 : main.go
 * 文件路径 :
 * 作者 : DavidLiu
 × Email: david.liu@ginghan.com
@@ -147,9 +147,9 @@ func initEndpointFile(endpoint string) {
 		}
 
 		txt = `
-				local_node.node_host = "%v";
-				local_node.node_port = "%v";
-			`
+local_node.node_host = "%v";
+local_node.node_port = "%v";
+`
 		txt = fmt.Sprintf(txt, host, port)
 
 		Logger.Info("%v Docker Endpoint is attached", endpoint)
