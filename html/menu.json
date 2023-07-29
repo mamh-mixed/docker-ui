@@ -4,7 +4,7 @@
     "pid": 1325,
     "text": "概览<span class=\"title-summary layui-badge layui-badge-dot\"></span>",
     "state": "closed",
-    "iconCls": "fa fa-windows",
+    "iconCls": "fa fa-dashboard",
     "url": "./portal/index.html"
   },
   {
